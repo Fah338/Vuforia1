@@ -1,0 +1,964 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 3484 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/cs222/Lab1/Vuforia1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49886
+Successfully changed project path to: D:/cs222/Lab1/Vuforia1
+D:/cs222/Lab1/Vuforia1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 414.52 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 19.86 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/cs222/Lab1/Vuforia1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 3 Graphics (ID=0x15dd)
+    Vendor:   
+    VRAM:     1742 MB
+    Driver:   26.20.12036.1
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009033 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 58.46 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.693 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9693ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.446436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <8c7c352943ca478e890a7dfd528a7666>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.167 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2168ms)
+		BeginReloadAssembly (293ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1760ms)
+			LoadAssemblies (588ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (477ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1538 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 6.151900 ms (FindLiveObjects: 0.408800 ms CreateObjectMapping: 0.065500 ms MarkObjects: 5.529600 ms  DeleteObjects: 0.145200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(28980b53f6f195e4abba3f0cac6934f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(28980b53f6f195e4abba3f0cac6934f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd349b0e1ec4369c03bea0d79055dd45f') in 0.417764 seconds 
+  Import took 0.474136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 977.756703 seconds.
+  path: Assets/myAsset/peasant_girl@Catwalk Walk Start Turn 180 Right.fbx
+  artifactKey: Guid(c3b55429846d46949906a41160416bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/peasant_girl@Catwalk Walk Start Turn 180 Right.fbx using Guid(c3b55429846d46949906a41160416bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5ba939138dae528453ff17e01538e7') in 5.511831 seconds 
+  Import took 6.322626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.856664 seconds.
+  path: Assets/myAsset/peasant_girl@Catwalk Walk Start Turn 180 Right.fbx
+  artifactKey: Guid(c3b55429846d46949906a41160416bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/peasant_girl@Catwalk Walk Start Turn 180 Right.fbx using Guid(c3b55429846d46949906a41160416bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e606b1e6634bd6e93e88a1c22a0258d7') in 0.168350 seconds 
+  Import took 0.227482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.139634 seconds.
+  path: Assets/myAsset/peasant_girl@Catwalk Walk Start Turn 180 Right.fbx
+  artifactKey: Guid(c3b55429846d46949906a41160416bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/peasant_girl@Catwalk Walk Start Turn 180 Right.fbx using Guid(c3b55429846d46949906a41160416bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39da1ac02c47ec38fc4330dd3250cf02') in 0.086375 seconds 
+  Import took 0.122233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.810271 seconds.
+  path: Assets/myAsset/Ch19Anima.controller
+  artifactKey: Guid(67d98aefeb2095e428fa4245872e336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/Ch19Anima.controller using Guid(67d98aefeb2095e428fa4245872e336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe7fcd93de3a0c3fe229a59ab298242') in 0.499462 seconds 
+  Import took 0.576386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.729316 seconds.
+  path: Assets/myAsset/lisa.controller
+  artifactKey: Guid(688159790d070cd4fa5221cf8a42defb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/lisa.controller using Guid(688159790d070cd4fa5221cf8a42defb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246816d894bbcba23a2021c2ae846be8') in 0.115163 seconds 
+  Import took 0.161458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.095029 seconds.
+  path: Assets/myAsset/texture/Ch02_1001_Diffuse.png
+  artifactKey: Guid(7216426543a7041418209d70ffa750c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/texture/Ch02_1001_Diffuse.png using Guid(7216426543a7041418209d70ffa750c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1a6962ef9cfdaa3ed9e9806339d060') in 1.401775 seconds 
+  Import took 1.450776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/myAsset/texture/Ch02_1001_Glossiness.png
+  artifactKey: Guid(d5ba6065ce92e3840a639a49d71aba8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/texture/Ch02_1001_Glossiness.png using Guid(d5ba6065ce92e3840a639a49d71aba8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b103a1a5f5a69a5c66d9baad21ebe5a9') in 0.210775 seconds 
+  Import took 0.257360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/myAsset/texture/Peasant_Girl_diffuse.png
+  artifactKey: Guid(8a81479a1f5b3a14ebbef36c61148c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/texture/Peasant_Girl_diffuse.png using Guid(8a81479a1f5b3a14ebbef36c61148c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafd3205f0c6bac77d2c590a92ad0f0e') in 0.167422 seconds 
+  Import took 0.191523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/myAsset/texture/Ch02_1002_Normal.png
+  artifactKey: Guid(391fe80c40a18bb40bc6dd2e1e12f7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/texture/Ch02_1002_Normal.png using Guid(391fe80c40a18bb40bc6dd2e1e12f7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ea716973cb05a55a0bd5e16ed88513') in 0.275052 seconds 
+  Import took 0.321163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/myAsset/texture/Ch02_1001_Normal.png
+  artifactKey: Guid(5946336d205540e458847920b014e0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/texture/Ch02_1001_Normal.png using Guid(5946336d205540e458847920b014e0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fff0747d537c44bc67accf65107dd1') in 0.171537 seconds 
+  Import took 0.188280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/myAsset/texture/Peasant_Girl_normal.png
+  artifactKey: Guid(1ec3bae04d0dd5d4ba20ba8a8ca648bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/texture/Peasant_Girl_normal.png using Guid(1ec3bae04d0dd5d4ba20ba8a8ca648bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a53014fd195e66eb35dfc9bc7e4348') in 0.159526 seconds 
+  Import took 0.202376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/myAsset/texture/Ch02_1002_Diffuse.png
+  artifactKey: Guid(5f7b55afde793394599f8072cf2752f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/texture/Ch02_1002_Diffuse.png using Guid(5f7b55afde793394599f8072cf2752f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb0264e16aa6d1e3d366b7496a8e53b') in 0.200649 seconds 
+  Import took 0.244272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/myAsset/texture/Ch02_1001_Specular.png
+  artifactKey: Guid(51110bdbff33749418a9275ec6ef3a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/texture/Ch02_1001_Specular.png using Guid(51110bdbff33749418a9275ec6ef3a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9572139c0cba32a9c6e0de4ce45d76aa') in 0.128103 seconds 
+  Import took 0.154637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/myAsset/texture/Peasant_Girl_specular.png
+  artifactKey: Guid(83264710c9101874db0664b7cfcd146a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/texture/Peasant_Girl_specular.png using Guid(83264710c9101874db0664b7cfcd146a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c147afce26d196e0bd926bc411c53b') in 0.181300 seconds 
+  Import took 0.195355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.505116 seconds.
+  path: Assets/myAsset/myMaterial/Ch02_body.mat
+  artifactKey: Guid(e7f072a95b065cc41be4be04adbcc9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/myMaterial/Ch02_body.mat using Guid(e7f072a95b065cc41be4be04adbcc9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752905dd637452d8bb157f66751ef59d') in 0.290784 seconds 
+  Import took 0.308311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/myAsset/myMaterial/Peasant_Girl.mat
+  artifactKey: Guid(c98f7ab73acaf0147807e84446622dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/myMaterial/Peasant_Girl.mat using Guid(c98f7ab73acaf0147807e84446622dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70ce602746a53ffddbee6e8dc2f63cb') in 0.203110 seconds 
+  Import took 0.243740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/myAsset/myMaterial/Ch02_hair.mat
+  artifactKey: Guid(424d8535d2025454084f733ca7009def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/myMaterial/Ch02_hair.mat using Guid(424d8535d2025454084f733ca7009def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fe2a8e8aea85680a673b14e1c6ed3c') in 0.146449 seconds 
+  Import took 0.165950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.700850 seconds.
+  path: Assets/myAsset/peasant_girl@Catwalk Walk Start Turn 180 Right.fbx
+  artifactKey: Guid(c3b55429846d46949906a41160416bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/peasant_girl@Catwalk Walk Start Turn 180 Right.fbx using Guid(c3b55429846d46949906a41160416bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b494c0f570ea51641f61d79a067fd5') in 0.187957 seconds 
+  Import took 0.217320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.559715 seconds.
+  path: Assets/myAsset/girlCatWalk.controller
+  artifactKey: Guid(c0f9ba8c110c90e41a13709acb2ee740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/girlCatWalk.controller using Guid(c0f9ba8c110c90e41a13709acb2ee740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb835f0c203e854d173da7d0ae220bd7') in 0.243216 seconds 
+  Import took 0.307574 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.663533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <8c7c352943ca478e890a7dfd528a7666>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.438 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7516ms)
+		BeginReloadAssembly (4418ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (628ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1909ms)
+		EndReloadAssembly (2889ms)
+			LoadAssemblies (1352ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (696ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (420ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 1520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 5.159000 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.148300 ms MarkObjects: 4.696500 ms  DeleteObjects: 0.048600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 125.937965 seconds.
+  path: Assets/myAsset/peasant_girl@Female Standing Pose.fbx
+  artifactKey: Guid(d2f70c08ec82d7644a211992b2d16a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/myAsset/peasant_girl@Female Standing Pose.fbx using Guid(d2f70c08ec82d7644a211992b2d16a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdeb3e27722ac46273b7e146e16ab0a') in 0.348012 seconds 
+  Import took 0.372156 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.924160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <8c7c352943ca478e890a7dfd528a7666>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2555ms)
+		BeginReloadAssembly (574ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (331ms)
+		EndReloadAssembly (1792ms)
+			LoadAssemblies (583ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (514ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (486ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 1520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 19.887500 ms (FindLiveObjects: 0.258300 ms CreateObjectMapping: 0.062000 ms MarkObjects: 19.497700 ms  DeleteObjects: 0.067300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 729.764579 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower
+  artifactKey: Guid(c5058153636289345b21853e7681ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower using Guid(c5058153636289345b21853e7681ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d68c1b949e18151468a3ff1757aacd') in 0.194254 seconds 
+  Import took 0.284464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2.png
+  artifactKey: Guid(639ea9295abd72e47b32cc50fe716a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2.png using Guid(639ea9295abd72e47b32cc50fe716a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287f6289ea949ca7c8333a687f8ac080') in 0.465774 seconds 
+  Import took 0.492331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/basestone.jpg
+  artifactKey: Guid(f1f0636758164ed4ba58132a6f6b5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/basestone.jpg using Guid(f1f0636758164ed4ba58132a6f6b5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63d03a9e2abaa385562dc16e28653ed') in 0.353252 seconds 
+  Import took 0.368646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/_Gray6_.jpg
+  artifactKey: Guid(20193174ac72be049a17855065a8ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/_Gray6_.jpg using Guid(20193174ac72be049a17855065a8ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957acb514437c17aabd503ceb0c49977') in 0.163262 seconds 
+  Import took 0.177644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2_1_.png
+  artifactKey: Guid(6706abcd36c7bbb469857b463036687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2_1_.png using Guid(6706abcd36c7bbb469857b463036687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060da88ba72885b13b871fac2bbfff42') in 0.137548 seconds 
+  Import took 0.165245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2_2_.png
+  artifactKey: Guid(c8202e3c6dbafee4f8b45799dc4ca2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2_2_.png using Guid(c8202e3c6dbafee4f8b45799dc4ca2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb600f86f08bfed613d71b780cbc911') in 0.182163 seconds 
+  Import took 0.208332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2_.png
+  artifactKey: Guid(cc6c1701ea4edca438ff67e15844b407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2_.png using Guid(cc6c1701ea4edca438ff67e15844b407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252d2bc0d6ab71a0646ce55518608224') in 0.240685 seconds 
+  Import took 0.247167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/arch.png
+  artifactKey: Guid(b5902554a59b8e343ada4df1333d48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/arch.png using Guid(b5902554a59b8e343ada4df1333d48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54eb9e5e542e429c7987e62f987ec0f') in 0.180423 seconds 
+  Import took 0.202343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/internal.png
+  artifactKey: Guid(7b15d49dd49a68e4da360a684d978366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/internal.png using Guid(7b15d49dd49a68e4da360a684d978366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f0dc3f0171b54eceb16cf56808ae5a') in 0.113032 seconds 
+  Import took 0.137513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame3_.png
+  artifactKey: Guid(b7b5958a977adb848ba9afaa91fe9938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame3_.png using Guid(b7b5958a977adb848ba9afaa91fe9938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d791e7d29ac6c74dce2e9f7122c7d1') in 0.071064 seconds 
+  Import took 0.084781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/Google_Earth_Snapshot1.jpg
+  artifactKey: Guid(59278fc98b51d7041bd0325f9800a737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/Google_Earth_Snapshot1.jpg using Guid(59278fc98b51d7041bd0325f9800a737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fd77897541febff2e30ac0d28c8298') in 0.121992 seconds 
+  Import took 0.145289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/Google_Earth_Snapshot1_1_.jpg
+  artifactKey: Guid(6365f80438a0de34589a3f84b932a4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/Google_Earth_Snapshot1_1_.jpg using Guid(6365f80438a0de34589a3f84b932a4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bc8feef7883c784dae8a4f4798a396') in 0.098798 seconds 
+  Import took 0.114054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2_4_.png
+  artifactKey: Guid(e0e4cc5d84f9edb4a9e4af6f68a2d432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2_4_.png using Guid(e0e4cc5d84f9edb4a9e4af6f68a2d432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ace30e98a786e0b9065222c94a0196d') in 0.043317 seconds 
+  Import took 0.063120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/M_3.png
+  artifactKey: Guid(d62f60b4d83439d42b98746166c25c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/M_3.png using Guid(d62f60b4d83439d42b98746166c25c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965b3b57850bc72b970be56ecbf4ae0e') in 0.123948 seconds 
+  Import took 0.128517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/M_2.png
+  artifactKey: Guid(c59889a9005f6a641a7a33c2ae6db272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/M_2.png using Guid(c59889a9005f6a641a7a33c2ae6db272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daed2e9a1d73e8c9aba9504e9ce408a1') in 0.066909 seconds 
+  Import took 0.071326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/M_4.png
+  artifactKey: Guid(32aaa077e1d1da644aa1989d5d1b0a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/M_4.png using Guid(32aaa077e1d1da644aa1989d5d1b0a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e797b81174682ecc87add6a5083230c1') in 0.065328 seconds 
+  Import took 0.083305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/entrance.jpg
+  artifactKey: Guid(3c0801bf741c8a8438223bf053313f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/entrance.jpg using Guid(3c0801bf741c8a8438223bf053313f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2642d1440427e16293acea6052ccd1') in 0.098957 seconds 
+  Import took 0.119661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame.png
+  artifactKey: Guid(22014749d9012ef4eb50e87f668da8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame.png using Guid(22014749d9012ef4eb50e87f668da8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16511e4ce0ccb4f791be5658bb87ff5c') in 0.104675 seconds 
+  Import took 0.132886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2_3_.png
+  artifactKey: Guid(6be7222309a140e4e88023672f10acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame2_3_.png using Guid(6be7222309a140e4e88023672f10acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728d1b6ce47a5cb43419168000e4cf36') in 0.084058 seconds 
+  Import took 0.088090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame1_.png
+  artifactKey: Guid(15737615bd0c60f45aef58827f6c7b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/frame1_.png using Guid(15737615bd0c60f45aef58827f6c7b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88ad258a2d4bd3d4078c593cf4e006e') in 0.112060 seconds 
+  Import took 0.127853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/_Charcoal_.jpg
+  artifactKey: Guid(00026829c406e0b46b39225acb6d5f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/_Charcoal_.jpg using Guid(00026829c406e0b46b39225acb6d5f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06f2450402771aced9178a96798bc67') in 0.069763 seconds 
+  Import took 0.081210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/M_1.png
+  artifactKey: Guid(24d53c459777de74e94e09b11a8bd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower/M_1.png using Guid(24d53c459777de74e94e09b11a8bd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648ff4a40dd31d971ffb692520d3184a') in 0.091631 seconds 
+  Import took 0.111946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.138120 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/frame2_.png
+  artifactKey: Guid(b5ede8fae070903459271e43c70cbe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/frame2_.png using Guid(b5ede8fae070903459271e43c70cbe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54d2cac99861619dd2f8ff69a69cb41') in 0.079013 seconds 
+  Import took 0.085087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/frame2_1_.png
+  artifactKey: Guid(876f1493e9b7e9e4d9901dc35de6e857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/frame2_1_.png using Guid(876f1493e9b7e9e4d9901dc35de6e857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef7c5ef6e0dc5e90bf5943e3b4bd6cc') in 0.093457 seconds 
+  Import took 0.105483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/Google_Earth_Snapshot1_1_.jpg
+  artifactKey: Guid(9002aada72d0dc643bbdab661bea9c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/Google_Earth_Snapshot1_1_.jpg using Guid(9002aada72d0dc643bbdab661bea9c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b45e7cb4936ffb44c7ef51243f7740') in 0.055871 seconds 
+  Import took 0.073876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/frame3_.png
+  artifactKey: Guid(c58fbe85258a8264a8276978258db539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/frame3_.png using Guid(c58fbe85258a8264a8276978258db539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4143e5be80c4eaa6d1c4ca5256a206b8') in 0.013449 seconds 
+  Import took 0.040146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/frame2_2_.png
+  artifactKey: Guid(a446752d04af47046826041415f06294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/frame2_2_.png using Guid(a446752d04af47046826041415f06294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae6fe83f46a6ea220ca0e59255a5af8') in 0.023778 seconds 
+  Import took 0.028278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/frame2_3_.png
+  artifactKey: Guid(a9fa472857fa5254aa2f958eafbaa21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/frame2_3_.png using Guid(a9fa472857fa5254aa2f958eafbaa21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f29683307806641ab32a8cea1b80e2c') in 0.045094 seconds 
+  Import took 0.072592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/frame2_4_.png
+  artifactKey: Guid(cc1e396fa87ee5d4c87e1f9b7bdfae53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/frame2_4_.png using Guid(cc1e396fa87ee5d4c87e1f9b7bdfae53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b74d83f768db165c8a64f56abd4b6e3') in 0.038711 seconds 
+  Import took 0.051924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/M_4.png
+  artifactKey: Guid(4a07e383b4f1acb49ab1e45c47b68699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/M_4.png using Guid(4a07e383b4f1acb49ab1e45c47b68699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9263b141a8357e0165337e79b3fcf8be') in 0.020181 seconds 
+  Import took 0.051233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/M_1.png
+  artifactKey: Guid(40aa566da08ffb3458741366dd89f8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/M_1.png using Guid(40aa566da08ffb3458741366dd89f8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a45f4ff567706acdd09f954b2caa2a') in 0.033187 seconds 
+  Import took 0.044992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/Google_Earth_Snapshot1.jpg
+  artifactKey: Guid(5c88e845197a09144bbc56e58dfbfa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/Google_Earth_Snapshot1.jpg using Guid(5c88e845197a09144bbc56e58dfbfa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b356d283d598b3bcbb21e2e49328c4ae') in 0.028083 seconds 
+  Import took 0.069802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/internal.png
+  artifactKey: Guid(738aa92390599004694299f93af0c584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/internal.png using Guid(738aa92390599004694299f93af0c584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1f2312d06027bec6889762d0d77c66') in 0.024615 seconds 
+  Import took 0.054902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/M_3.png
+  artifactKey: Guid(a2fe4fc35f9cd8144a5c09bd51f5ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/M_3.png using Guid(a2fe4fc35f9cd8144a5c09bd51f5ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd737b82e412da12d944e8d8e4fcd51da') in 0.026284 seconds 
+  Import took 0.031029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/M_2.png
+  artifactKey: Guid(51027e4229385dc4aa64579936e8f4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/M_2.png using Guid(51027e4229385dc4aa64579936e8f4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f57500c3621d2fc80745794000bfe9') in 0.052325 seconds 
+  Import took 0.107318 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <8c7c352943ca478e890a7dfd528a7666>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4997ms)
+		BeginReloadAssembly (979ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (2845ms)
+			LoadAssemblies (1524ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (826ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (815ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (535ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 1520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 5.155400 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.067700 ms MarkObjects: 4.746500 ms  DeleteObjects: 0.043000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.828068 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/M_4_1_.png
+  artifactKey: Guid(ed847f662fec66646befb35f26171d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/M_4_1_.png using Guid(ed847f662fec66646befb35f26171d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dcbcecf98ba028cf0af287be2ba123') in 1.170677 seconds 
+  Import took 1.205014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/textures/M_4_2_.png
+  artifactKey: Guid(8c7c1ea20409131469818b3e02491c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/textures/M_4_2_.png using Guid(8c7c1ea20409131469818b3e02491c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767ddd703001f2dbc83c651f84eebd95') in 0.267702 seconds 
+  Import took 0.353656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower.obj
+  artifactKey: Guid(b7ba93a3e10c8094181660895b64e7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/eiffel-tower-toshueyi/source/f2eddda0f66f4c178820ef397e49b996/eiffel_tower/eiffel_tower.obj using Guid(b7ba93a3e10c8094181660895b64e7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd360f797c352ca5ea5cc71244b3ba83d') in 6.218000 seconds 
+  Import took 6.285506 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.249346 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <8c7c352943ca478e890a7dfd528a7666>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <8c7c352943ca478e890a7dfd528a7666>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.872 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1873ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1527ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (685ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 1520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 4.621900 ms (FindLiveObjects: 0.259500 ms CreateObjectMapping: 0.066300 ms MarkObjects: 4.251000 ms  DeleteObjects: 0.042900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
